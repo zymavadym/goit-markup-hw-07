@@ -42,7 +42,6 @@ p {
 
 ul {
     list-style: none;
-    margin: 0;
     padding: 0;
 }
 
@@ -267,7 +266,6 @@ address {
     font-size: 14px;
     line-height: 1.1428;
     letter-spacing: 0.03em;
-
 }
 
 .box-main-top {
@@ -500,9 +498,6 @@ address {
     justify-content: center;
     align-items: center;
     transition: color 200ms linear, border 200ms linear;
-}
-
-.link-box-bottom {
     fill: #AFB1B8;
 }
 
@@ -515,54 +510,6 @@ address {
 .link-box-bottom:hover .box-bottom-icon,
 .link-box-bottom:focus .box-bottom-icon {
     fill: currentColor;
-}
-
-.footer { 
-    height: 252px;
-    background: #2F303A;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-.address {
-    list-style: none;
-}
-
-.adress-map {
-    font-size: 14px;
-    line-height: 1.7142;
-    letter-spacing: 0.03em;
-    color: var(--brand-white);
-    text-decoration: none;
-}
-
-.link { 
-    font-size: 14px;
-    line-height: 1.7142;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
-}
-
-.adress-map:hover,
-.link:hover,
-.adress-map:focus,
-.link:focus {
-    color: var(--brand-light-blue);
-}
-
-.adress-map-link {
-    margin-top: 20px;
-}
-
-.mail-link,
-.phone-link {
-    margin-top: 9px;
-}
-
-.link,
-.adress-map {
-    transition: color 300ms linear;
 }
 
 .main-portfolio {
@@ -694,6 +641,54 @@ address {
     text-decoration: none;
     display: block;
     transition: border 500ms linear, 500ms linear;
+}
+
+.footer { 
+    height: 252px;
+    background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.address {
+    list-style: none;
+}
+
+.adress-map {
+    font-size: 14px;
+    line-height: 1.7142;
+    letter-spacing: 0.03em;
+    color: var(--brand-white);
+    text-decoration: none;
+}
+
+.link { 
+    font-size: 14px;
+    line-height: 1.7142;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.adress-map:hover,
+.link:hover,
+.adress-map:focus,
+.link:focus {
+    color: var(--brand-light-blue);
+}
+
+.adress-map-link {
+    margin-top: 20px;
+}
+
+.mail-link,
+.phone-link {
+    margin-top: 9px;
+}
+
+.link,
+.adress-map {
+    transition: color 300ms linear;
 }
 
 .subscribe {

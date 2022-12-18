@@ -10,29 +10,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <title>Портфоліо</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <header class="header">
-        <div class="container header-container">
-            <a class="logo logo-header" href="index.html">Web<span class="web-header">Studio</span></a>
-            <nav class="header-navigation">
-                <ul class="header-nav">
-                    <li class="header-links header-link-studio"><a class="header-nav-link header-studio" href="index.html">Студія</a></li>
-                    <li class="header-links header-link-portfolio"><a class="header-nav-link header-potfolio current"href="portfolio.html">Портфоліо</a></li>
-                    <li class="header-links header-link-contacts"><a class="header-nav-link header-contacts" href="#">Контакти</a></li>
+        <div class="container header__container">
+            <a class="logo header__logo" href="index.html">Web<span class="header__web">Studio</span></a>
+            <nav class="header__navigation">
+                <ul class="list">
+                    <li class="list__links list__studio">
+                        <a class="list__link header-studio" href="index.html">Студія</a>
+                    </li>
+                    <li class="list__links list__portfolio">
+                        <a class="list__link header-potfolio current" href="portfolio.html">Портфоліо</a>
+                    </li>
+                    <li class="list__links list__contacts">
+                        <a class="list__link header-contact" href="#">Контакти</a>
+                    </li>
                 </ul>
             </nav>
-            <ul class="header-contact">  
-                <li class="header-link-mail">
-                    <a class="header-mail" href="mailto:info@devstudio.com">
-                    <svg class="icon-header-contact" width="16" height="12">
+            <ul class="contact-list">  
+                <li class="contact-list__mail">
+                    <a class="contact-list__mail-link" href="mailto:info@devstudio.com">
+                    <svg class="icon-header-contact contact-list__icon" width="16" height="12">
                         <use href="./images/icons.svg#icon-img-mail"></use>
                     </svg>info@devstudio.com</a>
                 </li>   
-                <li class="header-link-telnumber">
-                    <a class="header-telnumber" href="tel:+380961111111">
-                    <svg class="icon-header-contact" width="10" height="16">
+                <li class="header-link-telnumber contact-list__telnumber">
+                    <a class="header-telnumber contact-list__telnumber-link" href="tel:+380961111111">
+                    <svg class="icon-header-contact contact-list__icon" width="10" height="16">
                         <use href="./images/icons.svg#icon-img-phone"></use>
                     </svg>+38 096 111 11 11</a>
                 </li>
